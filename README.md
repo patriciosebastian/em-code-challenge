@@ -2,7 +2,7 @@
 <p align="center">
   <h3 align="center">Empire-Medical Code Challenge</h3>
 
-  <p align="left">
+  <p align="center">
     A tool that displays some information using Open Brewery DB as the data source
     <br/>
     <br/>
