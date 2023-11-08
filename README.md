@@ -18,7 +18,8 @@ Using the open brewery database as the data source, this tool:
 
 1. Displays a random brewery when a User lands on the page.
 2. Allows the User to "Like" or "Dislike" the random brewery, and then displays another random brewery.
-3. Allows the User to find other breweries that share tagged data with the currently shown random brewery (i.e. they can click on the breweries City and see all breweries in that city, etc etc)
+3. Allows the User to find other breweries in the same city by clicking on the city badge (button).
+4. Allows the User to find other breweries in the same city and of the same type by clicking on the brewery-type badge (button).
 
 ## Tech Used
 
