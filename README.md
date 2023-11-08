@@ -6,7 +6,7 @@
     A tool that displays some information using Open Brewery DB as the data source
     <br/>
     <br/>
-    <a href="[https://github.com/patriciosebastian/em-code-challenge](https://em-code-challenge-production.up.railway.app/)" target="_blank">View Demo</a>.
+    <a href="https://em-code-challenge-production.up.railway.app/" target="_blank">View Demo</a>.
   </p>
 </p>
 
