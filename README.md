@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <h3 align="center">Empire-Medical Code Challenge</h3>
+  <h1 align="center">Empire-Medical Code Challenge</h1>
 
   <p align="center">
     A tool that displays some information using Open Brewery DB as the data source
