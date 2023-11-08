@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire-Medical Code Challenge</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="output.css">
+    <!-- External JS -->
+    <script src="script.js" async></script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <div class="navbar">
+      <a class="btn btn-ghost normal-case text-xl">E-M Code Challenge</a>
+    </div>
+    <!-- Display Brewery -->
+    <div class="min-h-screen flex flex-col justify-center items-center gap-y-20">
+      <!-- Card -->
+      <div class="card w-96 bg-base-100 shadow-xl mx-auto">
+        <figure class="border-b"><img src="https://www.openbrewerydb.org/_app/immutable/assets/obdb-logo.bfe70fda.png" alt="Open Brewery DB logo" /></figure>
+        <div class="card-body">
+          <h1 class="brewery-name card-title"></h1>
+          <p class="brewery-website"></p>
+          <p class="brewery-city-state"></p>
+          <div class="card-actions justify-start mt-3">
+            <!-- card buttons -->
+            <button class="btn btn-primary btn-feedback">Like</button>
+            <button class="btn btn-primary btn-feedback">Dislike</button>
+          </div>
+          <!-- card tags -->
+          <div class="justify-start mt-5">
+            <button class="brewery-city badge badge-outline"></button>
+            <button class="brewery-type badge badge-outline"><button>
+          </div>
+        </div>
+      </div>
+      <!-- Breweries Table -->
+      <div class="overflow-x-auto hidden by-prop-table mb-10">
+        <h2 class="table-heading"></h2>
+        <table class="table table-zebra mt-3">
+          <!-- table head -->
+          <thead>
+            <tr>
+              <th></th>
+              <th>Brewery</th>
+              <th>Website</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+          <!-- table body -->
+          <tbody class="table-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+</body>
+</html>
