@@ -1,7 +1,11 @@
 // Get random brewery from Open Brewery DB
 const randomBrewery = async () => {
   try {
-    const response = await fetch("https://api.openbrewerydb.org/v1/breweries/random");
+    const response = await fetch("https://api.openbrewerydb.org/v1/breweries/random", {
+        headers: {
+            'Cache-Control': 'no-cache'
+        }
+    });
     const data = await response.json();
 
     // display brewery details
