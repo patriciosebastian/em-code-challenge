@@ -15,9 +15,6 @@ const randomBrewery = async () => {
     document.querySelector('.brewery-city').textContent = `#${data[0].city}`;
     document.querySelector('.brewery-type').textContent = `#${data[0].brewery_type}`;
 
-    // hide tables when buttons are clicked
-    document.querySelector('.by-prop-table').classList.add('hidden');
-
   } catch (error) {
     console.error("There was a problem fetching random brewery:", error);
   }
@@ -28,6 +25,8 @@ randomBrewery();
 const mainButtons = document.querySelectorAll('.btn-feedback');
 mainButtons.forEach(button => {
     button.addEventListener('click', randomBrewery);
+    // hide tables when buttons are clicked
+    document.querySelector('.by-prop-table').classList.add('hidden');
 });
 
 // Create table rows
