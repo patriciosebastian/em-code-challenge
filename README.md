@@ -6,9 +6,9 @@
     A tool that displays some information using Open Brewery DB as the data source
     <br/>
     <br/>
-    <a href="[https://em-code-challenge-v2.up.railway.app/](https://em-code-challenge-v2.up.railway.app/)" target="_blank">View Demo</a>.
+    <a href="https://em-code-challenge-v2.up.railway.app/" target="_blank">View Demo</a>.
     <br />
-    <p>Demo currenly under review; please review code</p>
+    <p align="center">Demo currenly under review; please review code</p>
   </p>
 </p>
 
